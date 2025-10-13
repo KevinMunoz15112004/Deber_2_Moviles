@@ -1,0 +1,7 @@
+{
+  "name": "DeberSplashIcon",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
