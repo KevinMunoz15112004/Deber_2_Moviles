@@ -59,7 +59,7 @@ Ahora se procede a ejecutar <code>npm i @capacitor/android</code> para ya genera
 
 Primero se debe ejecutar <code>npm install @capacitor/assets</code>
 
-Para proceder con la generación de ambos, como se mencionó en el Paso 2 se debe tener dos imagenes que servirán para el Splash Screen: "splash.png" y "splash-dark.png" las cuales deben ser de 2732px x 2732px. Pero adicionalmente se necesitan 3 imágenes para los íconos que se deben llamar "icon-only.png", "icon-foreground.png" y "icon-background.png", los íconos deben ser de 1024px x 1024px. Las imágenes de antes deben estar en una carpeta "assets" y ponerla en la raíz del proyecto, una vez se tenga eso, se procede a ejecutar el comando: <code>npx capacitor-assets generate</code>, este comando generará todos los recursos para los íconos y splash screen en diferentes resoluciones
+Para proceder con la generación de ambos, como se mencionó en el Paso 2 se debe tener dos imagenes que servirán para el Splash Screen: "splash.png" y "splash-dark.png" las cuales deben ser de 2732px x 2732px. Pero adicionalmente se necesitan 3 imágenes para los íconos que se deben llamar "icon-only.png", "icon-foreground.png" y "icon-background.png", los íconos deben ser de 1024px x 1024px. Las imágenes de antes deben estar en una carpeta "assets" y ponerla en la raíz del proyecto, una vez se tenga eso, se procede a ejecutar el comando: <code>npx capacitor-assets generate</code>, este comando generará todos los recursos para los íconos y splash screen en diferentes resoluciones dentro de la carpeta Android
 
 
 
