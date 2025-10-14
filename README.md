@@ -23,7 +23,8 @@ Ahora se procede a abrir VS Code para visualizar el proyecto creado:
 
 El Splash Screen es la pantalla que se muestra al iniciar la aplicación, generalmente con el logotipo o una animación rápida. Para emplearla se necesitan archivos PNG o JPG llamados "splash.png" y "splash-dark.png". Una vez se cuenten con esos archivos se debe ejecutar el siguiente comando: <code>npm install @capacitor/splash-screen</code>, lo que permitirá usar el splash screen. Luego se debe ir a la documentación oficial de Ionic y buscar en la sección "Examples" el código proporcionado para <code>capacitor.config.ts</code>, este código es el siguiente: 
 
-<code>plugins: {
+<code>
+plugins: {
     SplashScreen: {
       launchShowDuration: 3000,
       launchAutoHide: true,
@@ -40,9 +41,10 @@ El Splash Screen es la pantalla que se muestra al iniciar la aplicación, genera
       layoutName: "launch_screen",
       useDialog: true,
     },
-  },</code>
+  },
+</code>
 
-Este código habrá que pegarlo en el archivo anteriormente mencionado. Una vez hecho se pegará en la sección correspondiente mostrandose finalmente así:
+Este código habrá que pegarlo en el archivo anteriormente mencionado, como se muestra a continuación:
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4291e025-c886-42c4-8ba9-e1f9e339b1d1" />
 
@@ -50,9 +52,11 @@ El código se puede modificar según sea requerido.
 
 Luego, en el mismo sitio de la documentación oficial, se deberá buscar la sección "Example" para buscar la forma en la que se llama al Splash Screen. Primero se deberá copiar la siguiente importación <code>import { SplashScreen } from '@capacitor/splash-screen';</code>. Este código habrá que pegarlo en el archivo <code>app.component.ts</code>. Luego en el mismo archivo se creará una función que puede llamarse <code>showSplash</code> la cual deberá ser una función asíncrona para pegar el siguiente código:
 
-<code>await SplashScreen.show({
+<code>
+await SplashScreen.show({
   autoHide: false,
-});</code>
+});
+</code>
 
 Finalmente el archivo <code>app.component.ts</code> debe mostrarse así:
 
