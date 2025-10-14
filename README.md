@@ -50,7 +50,7 @@ Este código habrá que pegarlo en el archivo anteriormente mencionado, como se 
 
 El código se puede modificar según sea requerido.
 
-Luego, en el mismo sitio de la documentación oficial, se deberá buscar la sección "Example" para buscar la forma en la que se llama al Splash Screen. Primero se deberá copiar la siguiente importación <code>import { SplashScreen } from '@capacitor/splash-screen';</code>. Este código habrá que pegarlo en el archivo <code>app.component.ts</code>. Luego en el mismo archivo se creará una función que puede llamarse <code>showSplash</code> la cual deberá ser una función asíncrona para pegar el siguiente código:
+Luego, en el mismo sitio de la documentación oficial, se deberá buscar la sección "Example" para buscar la forma en la que se llama al Splash Screen. Primero se deberá copiar la siguiente importación: <code>import { SplashScreen } from '@capacitor/splash-screen';</code>. Este código habrá que pegarlo en el archivo <code>app.component.ts</code>. Luego en el mismo archivo se creará una función que puede llamarse <code>showSplash</code> la cual deberá ser una función asíncrona para pegar el siguiente código:
 
 <code>
 await SplashScreen.show({
