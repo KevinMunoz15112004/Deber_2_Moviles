@@ -59,7 +59,9 @@ Ahora se procede a ejecutar <code>npm i @capacitor/android</code> para ya genera
 
 Primero se debe ejecutar <code>npm install @capacitor/assets</code>
 
-Para proceder con la generación de ambos, como se mencionó en el Paso 2 se debe tener dos imagenes que servirán para el Splash Screen: "splash.png" y "splash-dark.png" las cuales deben ser de 2732px x 2732px. Pero adicionalmente se necesitan 3 imágenes para el ícono que se deben llamar "icon-only.png", "icon-foreground.png" y "icon-background.png", los íconos deben ser de 1024px x 1024px. Las imágenes de antes deben estar en una carpeta "assets" y ponerla en la raíz del proyecto. No es necesario tener diferentes imagénes, si se tiene una sola imagen del Splash Screen esa misma puede servir para las 2 que se necesitan; pasa lo mismo con el Ícono y las 3 necesarias, una vez se tenga eso, se procede a ejecutar el comando: <code>npx capacitor-assets generate</code>, este comando generará todos los recursos para el ícono y splash screen en diferentes resoluciones dentro de la carpeta Android
+Para proceder con la generación de ambos, como se mencionó en el Paso 2 se debe tener dos imagenes que servirán para el Splash Screen: "splash.png" y "splash-dark.png" las cuales deben ser de 2732px x 2732px. Pero adicionalmente se necesitan 3 imágenes para el ícono que se deben llamar "icon-only.png", "icon-foreground.png" y "icon-background.png", los íconos deben ser de 1024px x 1024px. Las imágenes de antes deben estar en una carpeta "assets" y ponerla en la raíz del proyecto. No es necesario tener diferentes imagénes, si se tiene una sola imagen del Splash Screen esa misma puede servir para las 2 que se necesitan; pasa lo mismo con el Ícono y las 3 necesarias, una vez se tenga eso, se procede a ejecutar el comando: <code>npx capacitor-assets generate</code>, este comando generará todos los recursos para el ícono y splash screen en diferentes resoluciones dentro de la carpeta Android.
+
+Ahora se procede a ejecutar el comando <code>npx cap open android</code> para ya ejecutar la app y ver los resultados.
 
 Las imágenes usadas para esta aplicación fueron:
 
@@ -70,6 +72,22 @@ Las imágenes usadas para esta aplicación fueron:
 Splash Screen:
 
 <img width="233" height="236" alt="image" src="https://github.com/user-attachments/assets/30e65b3f-b6d2-43d3-86c7-8122f56292fc" />
+
+Finalmente una vez seguido todo esto y puesto los comandos correctos, capacitor añadira las imágenes en sus respectivad formas para mostrar el ícono de la app y el Splash Screen.
+
+### Demostración de la App
+
+Una vez iniciado Android Studio se podrá visualizar el ícono de la app en el celular:
+
+<img width="225" height="263" alt="image" src="https://github.com/user-attachments/assets/8880a2d3-2254-4094-853f-ee250dc3abf3" />
+
+Cuando se entra en la App se visualizará primero el ícono y luego el splash screen:
+
+<img width="276" height="550" alt="image" src="https://github.com/user-attachments/assets/e5ba304e-7b70-453e-8335-76db5eb00951" />
+
+<img width="281" height="549" alt="image" src="https://github.com/user-attachments/assets/fadaf601-2b76-49a7-895d-ab11dddd088f" />
+
+
 
 
 
