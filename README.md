@@ -73,7 +73,7 @@ Splash Screen:
 
 <img width="233" height="236" alt="image" src="https://github.com/user-attachments/assets/30e65b3f-b6d2-43d3-86c7-8122f56292fc" />
 
-Finalmente una vez seguido todo esto y puesto los comandos correctos, capacitor generará y colocará las imágenes en los respectivos directorios para mostrar el ícono de la app y el Splash Screen en el dispositivo móvil.
+Finalmente una vez seguido todo esto y puesto los comandos correctos, Capacitor generará y colocará las imágenes en los respectivos directorios para mostrar el ícono de la app y el Splash Screen en el dispositivo móvil.
 
 ### Demostración de la App
 
