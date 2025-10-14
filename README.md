@@ -4,8 +4,10 @@ Implementación de una aplicación con ícono personalizado y un splash screen
 
 # Contenidos
 
-- [Creación del proyecto](#paso-1---creaci%C3%B3n-del-proyecto)
-- [Instalación y configuracón de Splash Screen](#paso-2---instalación-y-configuración-de-splash-screen)
+- [Paso 1 - Creación del proyecto](#paso-1---creaci%C3%B3n-del-proyecto)
+- [Paso 2- Instalación y configuracón de Splash Screen](#paso-2---instalación-y-configuración-de-splash-screen)
+- [Paso 3 - Generación del Splash Screen e Ícono personalizado](#paso-3---generación-del-splash-screen-y-del-ícono-personalizado)
+- [Demostración de la App](#demostración-de-la-app)
 
 ## Paso 1 - Creación del proyecto
 
