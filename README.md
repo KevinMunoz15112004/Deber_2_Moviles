@@ -86,6 +86,10 @@ Splash Screen:
 
 Finalmente una vez seguido todo esto y puesto los comandos correctos, Capacitor generará y colocará las imágenes en los respectivos directorios para mostrar el ícono de la app y el Splash Screen en el dispositivo móvil.
 
+## AndroidManifest.xml
+
+Este es un componente esencial para cualquier aplicación android porque define los permisos, actividades o servicios 
+
 ### Demostración de la App
 
 Una vez iniciado Android Studio se podrá visualizar el ícono de la app en el celular:
