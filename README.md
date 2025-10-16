@@ -7,7 +7,8 @@ Implementación de una aplicación con ícono personalizado y un splash screen
 - [Paso 1 - Creación del proyecto](#paso-1---creaci%C3%B3n-del-proyecto)
 - [Paso 2- Instalación y configuración de Splash Screen](#paso-2---instalación-y-configuración-de-splash-screen)
 - [Paso 3 - Generación del Splash Screen e Ícono personalizado](#paso-3---generación-del-splash-screen-y-del-ícono-personalizado)
-- [Demostración de la App](#demostración-de-la-app)
+- [Paso 4 - Demostración del Ícono y Splash Screen](#paso-4---demostración-del-ícono-y-splash-screen)
+- [Adicional - AndroidManifest.xml](#adicional---androidmanifestxml)
 
 ## Paso 1 - Creación del proyecto
 
@@ -86,11 +87,7 @@ Splash Screen:
 
 Finalmente una vez seguido todo esto y puesto los comandos correctos, Capacitor generará y colocará las imágenes en los respectivos directorios para mostrar el ícono de la app y el Splash Screen en el dispositivo móvil.
 
-## AndroidManifest.xml
-
-Este es un componente esencial para cualquier aplicación android porque define los permisos, actividades o servicios 
-
-### Demostración de la App
+### Paso 4 - Demostración del Ícono y Splash Screen
 
 Una vez iniciado Android Studio se podrá visualizar el ícono de la app en el celular:
 
@@ -102,6 +99,25 @@ Cuando se entra en la App se visualizará primero el ícono y luego el splash sc
 
 <img width="281" height="549" alt="image" src="https://github.com/user-attachments/assets/fadaf601-2b76-49a7-895d-ab11dddd088f" />
 
+Finalmente se muestra la página "Home":
+
+<img width="273" height="539" alt="image" src="https://github.com/user-attachments/assets/659c040b-4baa-423c-8b5e-113e096656b7" />
+
+## Adicional - AndroidManifest.xml
+
+Este es un componente esencial para cualquier aplicación android porque define los permisos, actividades o servicios, proporcionando al sistema android crítica para el correcto funcionamiento de la aplicación. 
+
+Para este caso se modificó el archivo para solicitar permisos al abrir la cámara:
+
+<img width="499" height="83" alt="image" src="https://github.com/user-attachments/assets/b677f7c3-a88d-4f95-a4aa-92155a9dba33" />
+
+Al ingresar a la aplicación y presionar el ícono de la cámara pedirá el respectivo permiso:
+
+<img width="335" height="367" alt="image" src="https://github.com/user-attachments/assets/dd0d5c13-8e4c-4629-8cb5-2eb6e290ce34" />
+
+Una vez aceptado se abrirá la cámara:
+
+<img width="288" height="549" alt="image" src="https://github.com/user-attachments/assets/808a76b8-eceb-4310-8e50-027b0e59d429" />
 
 
 
