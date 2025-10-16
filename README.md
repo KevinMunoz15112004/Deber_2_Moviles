@@ -2,6 +2,8 @@
 
 Implementación de una aplicación con ícono personalizado y un splash screen
 
+Nombre: Kevin Muñoz
+
 # Contenidos
 
 - [Paso 1 - Creación del proyecto](#paso-1---creaci%C3%B3n-del-proyecto)
